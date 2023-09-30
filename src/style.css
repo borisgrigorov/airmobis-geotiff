@@ -1,0 +1,14 @@
+@import "ol/ol.css";
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+
+#map {
+  position: absolute;
+  top: 20%;
+  width: 100%;
+  height: 80%;
+}

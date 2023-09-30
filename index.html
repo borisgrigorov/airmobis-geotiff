@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <link
+            rel="icon"
+            type="image/x-icon"
+            href="https://openlayers.org/favicon.ico" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/proj4js/2.7.5/proj4.js"></script>
+        <title>Airmobis geotiff viewer</title>
+    </head>
+    <body>
+        <div id="map"></div>
+        <label for="track">
+            track position
+            <input id="track" type="checkbox" />
+        </label>
+        <code id="info"></code>
+        <button id="zoomToGeotiff">Zoom to geotiff</button>
+        <script type="module" src="src/main.js"></script>
+    </body>
+</html>
